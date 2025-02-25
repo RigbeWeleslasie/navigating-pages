@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Navigating pages website </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <style>
+            
+            
+            body{
+                justify-content: center;
+                background-color: aqua;
+                }
+            button {
+              width: 101%;
+              padding: 10px 12px;
+              background-color: black;
+              border: none;
+              color: white;
+              border-radius: 4px;
+              cursor: pointer;
+              margin-left:10px;
+              margin-top: 30px;
+              margin-bottom: 30px;
+                   }
+            form{
+               margin: 0 auto;
+               border: none;
+               padding: 30px;
+               width:60%;
+               background-color: white;
+               box-shadow:black 5px 5px 5px 5px;
+               margin-left: 350px;
+               margin-right: 10px;
+               margin-top:50px;
+           
+              }
+           .sign_in_page{
+                padding: 8px 12px;
+                width:100%;
+                margin-left:10 px ;
+                border-radius: 4px;
+
+                }
+            hr{
+            width:40%;
+            margin-left: 20px;
+            display: inline-flex;
+
+              }
+           
+            a{
+            text-decoration: none;
+            color:black;
+
+             }
+            label{
+             margin-left: 8px 12px;
+             }
+            #google-icon{
+             justify-content: center;
+             margin-top: 20px;
+             margin-left:410px;
+                }
+            #facebook-icon{
+             justify-content: center;
+             margin-top: 20px;
+             margin-left: 160px;
+             }
+     </style>
+    </head>
+    <body>
+       
+        
+<form >
+    <p>Don't have an account?<b><a href="index.html"  >sign up</a></b></p>
+    <h2>Sign in</h2>
+    
+    <label for="Email">Email:</label>
+    <br><br>
+    <input class="sign_in_page" type="email" id="email" placeholder="Enter your email" required/>
+    <br><br>
+    <label for="password">Password:</label>
+    <br><br>
+    <input class="sign_in_page" type="password" id="password" placeholder="Enter password" required/><br><br>
+    <input style="cursor: pointer;"type="checkbox" id="option" name="option" required/>
+    <label for="option">I've Read and agree with <b>The Terms Of Services </b>And Our <b>Privacy Policy</b></label>
+    <br><br>
+    <button type="submit" id="sign_in_page">   <a href="table.html" style="color:white;">Sign in</a></button>
+    <br><br>
+    <hr>or sign in with <hr>
+    <br>
+    <a href="https://www.google.com/" ><i id="google-icon"class="fa-brands fa-google"></i></a>
+    <a href="https://www.facebook.com/"><i id="facebook-icon" class="fa-brands fa-facebook"></i></a>
+</form>
+</body>
+</html>

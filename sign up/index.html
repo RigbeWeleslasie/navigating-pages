@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <title>Navigating pages website </title>
+        <style>
+            
+        body{
+                justify-content: center;
+                background-color: aqua;
+            }
+        button {
+            width: 102%;
+            padding: 10px 12px;
+            background-color: black;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left:4px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+                }
+        form{
+           border: none;
+           padding: 30px;
+           width:60%;
+           background-color: white;
+           box-shadow:black 5px 5px 5px 5px;
+           margin-left: 350px;
+           margin-right: 10px;
+           margin-top:50px;
+           
+    
+             }
+        .sign_up_page{
+                padding: 8px 12px;
+                width:100%;
+                margin-left:10 px ;
+                border-radius: 4px;
+         }
+        hr{
+            width:40%;
+            margin-left: 20px;
+            display: inline-flex;
+        }
+
+        label{
+            margin-left: 8px 12px;
+            font-weight: lighter;
+            
+            }
+        .icon{
+            display:flex;
+            gap:10px;
+            justify-content: center;
+            margin-top:20px;
+           }
+        a{
+            text-decoration:none;
+            color: black;
+            text-color:white;
+
+           }
+        #google-icon{
+            justify-content: center;
+            margin-top: 20px;
+            margin-left:410px;
+            background-color: rgb(255,255,255);
+          }
+        #facebook-icon{
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: 160px;
+           }
+         
+
+        </style>
+    </head>
+    <body>
+       
+        
+<form >
+    <p>Already have an account?<b><a href="login.html" ><b>sign in</a></p>
+    <h2>Sign up</h2>
+    <label for="Name">Name:</label>
+    <br><br>
+
+    <input class="sign_up_page" type="text" id="name" name="name" placeholder="Enter your name" required/><br><br>
+
+    <label for="email">Email:</label>
+    <br><br>
+
+    <input class="sign_up_page" type="email" id="email" name="email" placeholder="Enter your email" required/> <br><br>
+
+    <label for="password">Password:</label>
+    <br><br>
+
+    <input class="sign_up_page" type="password" id="password" placeholder="Enter password" required/><br><br>
+    <input style="cursor:pointer;" type="checkbox" id="option" name="option" >
+    <label for="option">I've Read and agree with <b>The Terms Of Services </b>And Our <b>Privacy Policy</b></label>
+    <br><br>
+
+    <a href="table.html"><button type="submit" id="sign_up_page">Sign up</button></a>
+    <br><br>
+    <hr >or sign up with <hr>
+    <a href="https://www.google.com/" ><i id="google-icon"class="fa-brands fa-google"></i></a>
+    <a href="https://www.facebook.com/"><i id="facebook-icon" class="fa-brands fa-facebook"></i></a>
+</form>
+</body>
+</html>
